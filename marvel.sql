@@ -81,3 +81,5 @@ DELETE FROM people WHERE name IN ('Marge Simpson', 'Homer Simpson');
 -- DELETE FROM people WHERE name IN ('Homer Simpson', 'Marge Simpson', 'Bart Simpson', 'Lisa Simpson', 'Maggie Simpson');
 DELETE FROM people WHERE name LIKE 'M%';
 SELECT * FROM people;
+--SELECT MULTIPLE USE IN
+SELECT  * FROM people WHERE name IN ('Homer Simpson', 'Ned Flanders', 'Itchy') ;
